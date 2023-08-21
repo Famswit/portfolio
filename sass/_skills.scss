@@ -1,0 +1,133 @@
+.skills{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(black, .8);
+
+    z-index: 999;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3s ease-in;
+}
+.skills:target{
+  opacity: 1;
+  visibility: visible;
+  z-index: 99999;
+}
+
+.skill-content{
+    color: black;
+    background-color: white;
+    width: 75%;
+   height: 85%;
+   margin: 3rem auto;
+   padding-left: 1rem;
+   display: grid;
+   grid-template-rows: 1fr 1fr 1fr;
+   grid-gap: 1rem;
+
+   overflow: scroll;
+}
+
+
+
+
+
+
+
+ .program-skill{
+     width: 98%;
+     height: 100%;
+     
+    
+ }
+ .program-bar {
+     margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(370px, max-content));
+    grid-column-gap: 3rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .skills .progress {
+    height: 45px;
+    display: block;
+    background: none;
+    border-radius: 0;
+  }
+  .skills .progress .skill {
+    padding: 0;
+    margin: 0 0 1px 0;
+    text-transform: uppercase;
+    display: block;
+    font-size: small;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #050d18;
+  }
+  .skills .progress .skill .val {
+    float: right;
+    font-style: normal;
+  }
+  .skills .progress-bar-wrap {
+    background: #dce8f8;
+    height: 7px;
+  }
+  .skills .progress-bar1{
+    width: 75%;
+    height: 7px;
+    transition: 0.9s;
+    background-color: #149ddd;
+  }
+  .skills .progress-bar2{
+    width: 90%;
+    height: 7px;
+    transition: 0.9s;
+    background-color: #149ddd;
+  }
+  .skills .progress-bar3{
+    width: 70%;
+    height: 7px;
+    transition: 0.9s;
+    background-color: #149ddd;
+  }
+  .skills .progress-bar4{
+    width: 50%;
+    height: 7px;
+    transition: 0.9s;
+    background-color: #149ddd;
+  }
+
+
+  
+    .skills .progress-bar8{
+      width: 70%;
+      height: 7px;
+      transition: 0.9s;
+      background-color: #149ddd;
+    }
+  .skills .progress-bar9{
+    width: 50%;
+    height: 7px;
+    transition: 0.9s;
+    background-color: #149ddd;
+  }
+  .skills .progress-bar10{
+    width: 0%;
+    height: 7px;
+    transition: 0.9s;
+    background-color: #149ddd;
+  }
+  
+  
+  .other-skill-box{
+   
+    width: 100%;
+    margin: 1rem 4rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, max-content));
+
+    overflow: scroll;
+  }

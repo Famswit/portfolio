@@ -1,0 +1,170 @@
+.content{
+    background-image: url("../img/fm1.png");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    color: rgb(0, 0, 0);
+
+
+    @media only screen and (max-width: 800px) {
+        height: 500px;
+           }
+}
+
+
+.nav-words{
+    background-color: rgba(0, 0, 0, 0.76);
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+   
+    text-decoration: none;
+    list-style: none;
+    font-size: 1rem;
+    font-weight: bold;
+
+    @media only screen and (max-width: 1000px) {
+        justify-content: space-around;
+          }
+
+          
+}
+.nav-link{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.918);
+    
+}
+.nav-link:visited{
+    display: inline-block;
+   
+    font-weight: 300;
+    color: white;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-image: linear-gradient(120deg, transparent 0%, transparent 50%, white 50%);
+    background-size: 220%;
+    transition: all .4s;
+}
+.nav-link:hover,
+.nav-link:active{
+    background-position: 100%;
+    color: orangered;
+    transform: translateX(1rem);
+    border-bottom: 2px solid red;
+}
+li{
+    padding: .4rem;
+    
+}
+
+h3{
+    margin-top: 35%;
+    margin-left: 10%;
+    font-size: 1.2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+    
+    
+}
+
+.content-name{
+    @media only screen and (max-width: 900px) {
+        padding-top: 3.5rem;
+        margin-left: -2rem;
+           }
+
+    @media only screen and (max-width: 800px) {
+       margin-top: -5rem;
+              }
+}
+
+
+.name-word{
+   color: red;
+    font-size: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ text-shadow: 1px 1px 1px black,
+ 1px 1px 1px black,
+ 1px 2px 1px black,
+ 1px 3px 1px black,
+ 
+ 1px 18px 6px rgba(16,16,16,0.4),
+ 1px 22px 10px rgba(16,16,16,0.2);
+
+ @media only screen and (max-width: 1000px) {
+    font-size: 1.4rem;
+       }
+ 
+}
+.name-desc{
+    margin-top: .5rem;
+    margin-left: 10%;
+    font-size: 1.5rem;
+    font-weight: 900;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+
+    @media only screen and (max-width: 1000px) {
+       font-size: 1.3rem;
+          }
+}
+
+.name-change:before{
+  color: red;
+    content:'';
+    animation: change infinite 8s;
+
+    text-shadow: 1px 1px 1px black,
+ 1px 1px 1px black,
+ 1px 2px 1px black,
+ 1px 3px 1px black,
+ 
+ 1px 18px 6px rgba(16,16,16,0.4),
+ 1px 22px 10px rgba(16,16,16,0.2),
+}
+ @keyframes change{
+    0%{
+        content: 'Front-end Developer';
+    }
+    30%{
+        content: 'UI/UX Developer';
+    }
+    60%{
+        content: 'Mobile Developer';
+    }
+    100%{
+        content: 'Graphics Designer';
+    }
+    
+}
+
+.content-social-svg{
+    width: 3rem;
+    height: 3rem;
+    padding: .8rem;
+    cursor: pointer;
+}
+
+.social2{
+    background-color: rgb(0, 0, 0);
+    width: fit-content;
+    margin-top: .5rem;
+    margin-left: 10%;
+    border-top: 2px red solid;
+    border-bottom: 2px red solid;
+
+    @media only screen and (max-width: 900px) {
+        margin-left: 2.1rem;
+                }
+
+
+    @media only screen and (max-width: 800px) {
+        margin-left: 2rem;
+                }
+
+}
+
+

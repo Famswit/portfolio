@@ -1,0 +1,60 @@
+.edu{
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: rgba(black, .8);
+
+        z-index: 999;
+  opacity: 0;
+  visibility: hidden;
+  transition: all .3s ease-in;
+}
+.edu-content{
+    color: black;
+    background-color: white;
+    width: 85%;
+   height: 85%;
+   margin: 3rem auto;
+   padding-left: 1rem;
+   overflow: scroll;
+}
+
+.edu:target{
+    opacity: 1;
+    visibility: visible;
+    z-index: 99999;
+}
+.edu-details{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(370px, max-content));
+    grid-template-rows: 380px 1fr;
+    grid-gap: 2rem;
+    margin-top: 3rem;
+    justify-content: space-evenly;
+}
+.edu-pics{
+    
+    background-image: url("../img/fm3.png");
+    background-repeat: no-repeat;
+    background-size: cover; 
+  
+    border-right: 4px solid orangered;
+    border-left: 4px solid black;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.3);
+}
+.edu-schools{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    width: 100%;
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, max-content));
+    grid-gap: 1rem;
+}
+p{
+    margin-top: .5rem;
+}
